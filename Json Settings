@@ -1,65 +1,84 @@
 {
-    "workbench.startupEditor": "newUntitledFile",
-    "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "Community Material Theme Darker",
-    "terminal.integrated.rendererType": "dom",
-    "editor.tokenColorCustomizations": {
-        "textMateRules": [
-            {
-                "name": "One Dark italic",
-                "scope": [
-                    "comment",
-                    "entity.other.attribute-name",
-                    "keyword",
-                    "markup.underline.link",
-                    "storage.modifier",
-                    "storage.type",
-                    "string.url",
-                    "variable.language.super",
-                    "variable.language.this"
-                ],
-                "settings": {
-                    "fontStyle": "italic"
-                }
-            },
-            {
-                "name": "One Dark italic reset",
-                "scope": [
-                    "keyword.operator",
-                    "keyword.other.type",
-                    "storage.modifier.import",
-                    "storage.modifier.package",
-                    "storage.type.built-in",
-                    "storage.type.function.arrow",
-                    "storage.type.generic",
-                    "storage.type.java",
-                    "storage.type.primitive"
-                ],
-                "settings": {
-                    "fontStyle": ""
-                }
-            }
-        ]
-    },
-    "terminal.integrated.gpuAcceleration": "off",
-    "vscode_vibrancy.opacity": -1,
-    "liveServer.settings.donotVerifyTags": true,
-    "files.autoSave": "onFocusChange",
-    "files.autoSaveDelay": 10,
-    // "beautify.config": "",
-    // "beautify.ignore": "",
-    "editor.tabSize": 4,
-    "editor.wordWrap": "on",
-    "editor.formatOnSave": true,
-    "editor.minimap.enabled": true,
-
-    "liveServer.settings.CustomBrowser": "chrome",
-    "liveSassCompile.settings.generateMap": false,
-    "liveSassCompile.settings.formats": [
-        {
-            "format": "expanded",
-            "extensionName": ".css",
-            "savePath": "/css"
+  "workbench.startupEditor": "newUntitledFile",
+  "terminal.integrated.rendererType": "dom",
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "name": "One Dark italic",
+        "scope": [
+          "comment",
+          "entity.other.attribute-name",
+          "keyword",
+          "markup.underline.link",
+          "storage.modifier",
+          "storage.type",
+          "string.url",
+          "variable.language.super",
+          "variable.language.this"
+        ],
+        "settings": {
+          "fontStyle": "italic"
         }
+      },
+      {
+        "name": "One Dark italic reset",
+        "scope": [
+          "keyword.operator",
+          "keyword.other.type",
+          "storage.modifier.import",
+          "storage.modifier.package",
+          "storage.type.built-in",
+          "storage.type.function.arrow",
+          "storage.type.generic",
+          "storage.type.java",
+          "storage.type.primitive"
+        ],
+        "settings": {
+          "fontStyle": ""
+        }
+      }
     ]
+  },
+  "terminal.integrated.gpuAcceleration": "off",
+  "vscode_vibrancy.opacity": -1,
+  "liveServer.settings.donotVerifyTags": true,
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 10,
+  // "beautify.config": "",
+  // "beautify.ignore": "",
+  "editor.tabSize": 4,
+  "editor.wordWrap": "on",
+  "editor.formatOnSave": true,
+  "editor.minimap.enabled": true,
+  "liveServer.settings.CustomBrowser": "Brave",
+  "liveSassCompile.settings.generateMap": false,
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "expanded",
+      "extensionName": ".css",
+      "savePath": "/css"
+    }
+  ],
+  "workbench.iconTheme": "material-icon-theme",
+  "bracketPairColorizer.depreciation-notice": false,
+  "security.workspace.trust.untrustedFiles": "open",
+  "code-runner.runInTerminal": true,
+  "window.menuBarVisibility": "compact",
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "window.titleBarStyle": "custom",
+  "vscode_vibrancy.refreshInterval": 5,
+  "kite.showWelcomeNotificationOnStartup": false,
+  "workbench.colorTheme": "One Dark Pro Darker",
+  "editor.guides.bracketPairs": "active",
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "bracket-pair-colorizer-2.depreciation-notice": false,
+  "npm.keybindingsChangedWarningShown": true,
+  "editor.fontSize": 16,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "editor.formatOnPaste": true,
+  "explorer.confirmDragAndDrop": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "explorer.confirmDelete": false
 }
